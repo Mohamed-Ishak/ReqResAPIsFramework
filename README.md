@@ -25,7 +25,7 @@ Maven installed (mvn -version to check)
 
 Clone this repository: git clone (https://github.com/Mohamed-Ishak/SimpleBooksAPIs.git)
 
-🔹 Run Tests using Maven command via terminal using **mvn test**   
+🔹 Run Tests using Maven command via terminal using **mvn test -Dtest=steps.CRUDOperations**   
 
  Notes:  
 The API is a mock so when you create a new user and try to get it
