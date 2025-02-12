@@ -1,7 +1,6 @@
 package steps;
 
-import io.cucumber.java.en.And;
-import io.cucumber.java.en.When;
+
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import org.testng.Assert;
@@ -9,10 +8,7 @@ import org.testng.annotations.Test;
 import utils.ConfigManager;
 
 import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 
-import static io.restassured.RestAssured.given;
 
 public class CRUDOperations extends BaseTest{
     public final String createUserPayload = "src/test/resources/testData/createUserPayload.json";
